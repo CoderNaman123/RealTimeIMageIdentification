@@ -1,0 +1,80 @@
+
+h1
+{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    color: rebeccapurple;
+}
+.go1
+{
+    width: 20%;
+    height: 40%;
+}
+.go2
+{
+    width: 40%;
+    height: 20%;
+}
+
+#design-header
+{
+    border-bottom: 5px solid red;
+    width: 70%;
+    border-radius: 20px;
+    color: blue !important;
+}
+
+.test_image_and_result
+{
+   
+    padding: 10px;
+    background: rgb(0, 255, 255) ; 
+    border-radius: 20px; 
+    color: black;
+    margin: 25px;
+    width: 80%;
+   
+    animation-name: example;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+ 
+}
+
+@keyframes example
+ {
+   from{box-shadow:5px 20px 30px red ;}
+   to{box-shadow: 10px 30px 40px greenyellow;}
+ }
+
+.img-responsive
+{
+    width: 70%;
+    height: 60%;
+    border: 6px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+
+.fcontrol
+{
+    font-size: 40px;
+    color: brown;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 170px;
+}
+
+h3
+{
+    font-family: 'Oleo Script Swash Caps', cursive !important;
+    font-size: 40px !important;
+    text-align: center !important;
+}
+
+.allhead
+{
+    background-color: yellow;
+    width: 80%;
+    border-radius: 20px;
+    border: 5px solid brown;
+}
